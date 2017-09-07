@@ -1,1 +1,13 @@
-// Specific CSS for your home-page
+.section-white {
+  text-align: center;
+  min-height: 80vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-size:contain;
+  background-position:right;
+  padding-top: 100px;
+}
